@@ -1,1 +1,3 @@
-# vscode-theme-dark-brown
+# Dark Brown
+
+![Sample](./images/readme/sample.png)

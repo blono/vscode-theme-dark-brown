@@ -1,0 +1,38 @@
+{
+    "name": "dark-brown",
+    "displayName": "Dark Brown Theme",
+    "description": "Dark Brown Theme",
+    "icon": "images/icon.png",
+    "version": "0.0.1",
+    "publisher": "blono",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/blono/vscode-theme-dark-brown"
+    },
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "license": "MIT",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "brown",
+        "gold",
+        "color-theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Brown",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-brown.json"
+            }
+        ]
+    },
+    "scripts": {
+        "publish": "vsce publish"
+    }
+}
